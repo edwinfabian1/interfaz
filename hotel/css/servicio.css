@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Rubik+Dirt&family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(31, 71, 48);
+    padding: 40px;
+
+
+}
+
+.titulo{
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    font-size: 60px;
+
+
+}
+
+.barra_vertical{
+    background-color: rgb(206, 16, 16);
+
+    
+}
+
+section{
+    height: 200px;
+    width: 300px;
+}
+
+.derde{
+    display: flex;
+    justify-content: end;
+    
+
+
+}

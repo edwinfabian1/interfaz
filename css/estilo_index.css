@@ -59,44 +59,32 @@ body {
 
     text-decoration: none;
     color: #ffffff;
-
-
-
-
 }
 
-.navegador li :hover {
-
-    color: rgb(0, 0, 0);
+.navegador li a:hover {
+    color: rgb(7, 241, 97);
 
 
 }
 
 /*submenu*/
-
 .submenu {
     visibility: hidden;
     background-color: rgb(31, 71, 48);
     transition: all, (2);
     list-style: none;
     border-radius: 5%;
-
-
-
-
 }
-
 
 li:hover .submenu {
     visibility: visible;
 
-
-
-
-
 }
 
-.submenu li a {}
+.submenu li a:hover {
+    color: rgb(7, 241, 97);
+
+}
 
 header {
     display: flex;
@@ -217,8 +205,8 @@ form {
     margin-left: 220px;
 
 
-    
-    
+
+
 }
 
 form p {
@@ -227,7 +215,7 @@ form p {
     padding: 0 22px;
     margin-left: 5%;
 
-    
+
 }
 
 form label {
@@ -238,7 +226,7 @@ form label {
     font-weight: bold;
     vertical-align: top;
     margin-left: 5%;
-    
+
 }
 
 form input[type="text"],
@@ -262,7 +250,7 @@ form input[type="submit"] {
     padding: 5px;
     border-radius: 3px;
     font-family: 'Victor Mono', monospace;
-    
+
 }
 
 form textarea {
@@ -277,10 +265,7 @@ form input[type="submit"] {
     margin-left: 162px;
 }
 
-.btn :hover {
-    
-
-}
+.btn :hover {}
 
 /*SECCION LATERAL*/
 
@@ -324,14 +309,14 @@ footer {
     display: flex;
     justify-content: center;
 
-    
+
 }
 
 .abajo {
     padding-top: 30px;
     text-decoration: none;
 
-   
+
 }
 
 .abajo section {
@@ -340,21 +325,21 @@ footer {
     position: relative;
     padding-right: 100px;
     color: aliceblue;
-    
+
 }
 
-.abajo  a {
+.abajo a {
     text-decoration: none;
     color: aliceblue;
 
 
 }
-.abajo a:hover{
+
+.abajo a:hover {
     color: #000;
 }
 
-h3{
+h3 {
     font-size: 30px;
 
 }
-
