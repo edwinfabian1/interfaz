@@ -13,6 +13,7 @@
 <body>
     <!--menu-->
     <header>
+
         <nav>
             <a href="/index.html" onclick="seleccionar(this)">Blog</a>
             <a href="#intro" onclick="seleccionar(this)" class="selected">Inicio</a>
@@ -26,6 +27,35 @@
         </nav>
     </header>
 
+    <script>
+        function validar() {
+          var usu = document.getElementById("usu").value;
+          var contra = document.getElementById("contra").value;
+      
+      
+          if (usu === "") {
+            alert("Por favor, ingrese sus datos.");
+            return false;
+          }
+      
+          if (contra.length > 8) {
+          alert("Datos completados  ");
+          window.location.href= "#";
+          return false; 
+      
+          }
+          else {
+          
+          alert
+      alert("datos incompletos");
+    
+      
+      }
+      }
+      
+      </script>
+      
+
     <!--seccion de introduccion-->
     <section id="intro" class="bloque">
         <div class="contenido">
@@ -37,14 +67,14 @@
                     <h3>Iniciar sesion</h3>
                     <div class="info">
                         <label>Usuario</label>
-                        <input type="text">
+                        <input type="text" id="usu">
                     </div>
-                    <div class="info">
+                    <div class="info" id>
                         <label>Contraseña</label>
-                        <input type="password">
+                        <input type="password" id="contra">
                     </div>
                     <div>
-                        <input type="submit" value="Enviar" class="btn_enviar">
+                        <input type="submit" onclick="validar()" value="Enviar" class="btn_enviar" >
                     </div>
                 </form>
             </div>
@@ -57,7 +87,7 @@
         <div class="contenido">
             <div class="item servicio1">
                 <div class="overlay"></div>
-                <a href=""><h2>Pisicinas</h2></a>
+                <a href=""><h2>piscinas</h2></a>
             </div>
             <div class="item servicio2">
                 <div class="overlay"></div>
@@ -218,7 +248,8 @@
                     </div>
                 </form>
         </div>
-    </section>       
+    </section>
+    
 </section>
 
 
